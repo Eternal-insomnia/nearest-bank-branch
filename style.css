@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "VTB bold";
+    src: url("fonts/VTB65.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "VTB normal";
+    src: url("fonts/VTB45.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: VTB normal;
+}
+
+h2 {
+    font-family: VTB bold;
+}
+
+.mapframe {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.mapframe iframe {
+    width: 60vw;
+    height: 600px;
+}
+
+.mapFilters {
+    padding-left: 10px;
+}
