@@ -146,8 +146,8 @@ header {
 
 .filterBtn {
     margin-top: 10px;
-    width: 60px;
-    height: 30px;
+    font-size: 1.5em;
+    cursor: pointer;
     display: none;
 }
 
@@ -158,9 +158,22 @@ header {
         display: none;
     }
     .filterBtn {
+        position: absolute;
         display: flex;
         align-items: center;
-        justify-content: center;
-        scale: 1.3;
+        justify-content: flex-end;
+        margin-top: 50px;
+        margin-left: -27px;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+@media(max-width: 328px) {
+    h2 {
+        font-size: 20px;
+    }
+    .content {
+        display: none;
     }
 }
