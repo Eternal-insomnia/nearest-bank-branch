@@ -118,6 +118,7 @@ header {
     background-position: 50% 50%;
     */
     box-shadow: 0 0 0 0.1em #0af;
+    cursor: pointer;
 }
 
     /* CHECKED */
@@ -125,6 +126,7 @@ header {
 .check__input:checked + .check__box {
     background-color: #0a2896;
     background-image: url(images/check.svg);
+    cursor: pointer;
 }
 
     /* FOCUSED */
@@ -150,6 +152,17 @@ header {
     cursor: pointer;
     display: none;
 }
+
+    /* FILTER SEND BUTTON */
+
+.filterSendBtn {
+    border-color: #0af;
+    background-color: #f3f7fa;
+    border-radius: 0.3em;
+    min-width: 85px;
+    cursor: pointer;
+}
+
 
     /* RESPONSIVE DESIGN */
 
